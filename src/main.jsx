@@ -13,9 +13,9 @@ root.render(
     <Provider store={store}>
       <Auth0Provider
         domain="dev-1m7fdf5yimzufwoe.us.auth0.com"
-        clientId="CxcvRJYL4FbKMOGuGsV3kwvaGzoPqkP7"
+        clientId="5fA00kciIw03oyxcwwmPnHAh9YgZvIQQ"
     authorizationParams={{
-      redirect_uri: "http://localhost:4000/auth/dashboard"
+      redirect_uri: "https://mule-logistics.netlify.app/auth/dashboard"
     }}
       >
         <App />
